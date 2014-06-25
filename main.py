@@ -57,7 +57,7 @@ while(1):
     b = cv2.getTrackbarPos('B','bars')
     s = cv2.getTrackbarPos('Size','bars')
     cv2.imshow('image',img)
-    cv2.waitKey(3)
+    #cv2.waitKey(3)
     img = np.zeros((480,640,3), np.uint8)
     k = cv2.waitKey(1) & 0xFF
     if k == 27:
